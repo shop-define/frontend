@@ -14,6 +14,8 @@ npm run build
 
 # Запуск docker-compose
 
+Заглушка докер
+
 После запуска доступен по http://localhost:3000/
 
 ```sh
@@ -28,7 +30,7 @@ docker-compose up --build
 
 # Превью
 
-Ветку `main` можно посмотреть [здесь](https://define-shop.vercel.app)
+Ветку `master` можно посмотреть [здесь](https://define-shop.vercel.app)
 
 Превью других веток можно отыскать в соответсвующих пайпланах
 
