@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+$color-border-input-default: #D9D9D9;
+$color-text-placeholder: rgba(0, 0, 0, 0.25);
+$color-text-default: rgba(0, 0, 0, 0.88);
+$text-line-height: 24px;
+$base-fontsize: 16px;
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+#root {
+    width: 100%;
+    //height: fit-content;
+}
+.body {
+    width: 1440px;
+    display: flex;
+    justify-self: center;
+}
+.icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+.button {
+    cursor: pointer;
+}
+.link {
+    text-decoration: none;
+    color: #262626;
+}
+.text_extra-large {
+    line-height: 28px;
+    font-size: 20px;
+}
+.text_large {
+    line-height: 24px;
+    font-size: 16px;
+}
+.text_default {
+    line-height: 22px;
+    font-size: 14px;
+}
+.text_small {
+    line-height: 20px;
+    font-size: 12px;
+}
+.input {
+    border: 1px solid $color-border-input-default;
+    border-radius: 6px;
+    height: 40px;
+}
+.input::-webkit-input-placeholder {
+    text-overflow: ellipsis;
+    line-height: $text-line-height;
+    font-size: $base-fontsize;
+    font-weight: 400;
+    padding-left: 11px;
+    color: $color-text-placeholder;
+}
+.main{
+    display: flex;
+    width: 100%;
+}
+.flex-row {
+    display: flex;
+    flex-flow: row wrap;
+}
+.centered {
+    justify-content: center;
+}
+.align-right {
+    height: 50px;
+    width: 50px;
+}
+.list {
+    list-style: none;
+}
+.main__product-list {
+    justify-content: center;
+    gap: 30px;
+}
