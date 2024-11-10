@@ -1,9 +1,9 @@
 import { QueryClient, QueryClientProvider } from 'react-query'
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
 import { ConfigProvider } from 'antd'
-import Main from './screens/main/main.tsx'
+import Landing from './screens/landing/landing.tsx'
 
-import S from './app.module.css'
+//import S from './app.module.css'
 
 // Клиент можно выпилить, если не будешь использовать react-query
 const queryClient = new QueryClient()
@@ -11,7 +11,7 @@ const queryClient = new QueryClient()
 const ConfigProviderWrap = () => {
   // Тут можно прокинуть стор, пользователя, к примеру
   return (
-    <div className={S.root}>
+    <div className='wrapper'>
       <Outlet />
     </div>
   )
@@ -23,7 +23,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Main />,
+        element: <Landing />,
       },
     ],
   },
