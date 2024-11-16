@@ -1,0 +1,10 @@
+#root {
+  width: 100%;
+  height: fit-content;
+}
+
+.main {
+  display: flex;
+  place-content: center space-around;
+  width: 100%;
+}

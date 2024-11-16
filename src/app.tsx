@@ -1,4 +1,4 @@
-import { QueryClient, QueryClientProvider } from 'react-query'
+/* import { QueryClient, QueryClientProvider } from 'react-query'
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
 import { ConfigProvider } from 'antd'
 import Landing from './screens/landing/landing.tsx'
@@ -45,4 +45,4 @@ function App() {
   )
 }
 
-export default App
+export default App */
