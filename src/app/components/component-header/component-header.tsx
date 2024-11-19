@@ -82,7 +82,7 @@ export default function HeaderComponent() {
                 </a>
               </li>
               <li className='navigation__item'>
-                <Link className='link navigation__item__link' href='#'>
+                <Link className='link navigation__item__link' href='/cart'>
                   <div className='navigation__item__link__container'>
                     <ShoppingCartOutlined style={{ fontSize: '24px' }} />
                   </div>
