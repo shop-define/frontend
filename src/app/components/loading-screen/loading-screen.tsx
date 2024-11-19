@@ -4,12 +4,16 @@ import { LoadingOutlined } from '@ant-design/icons'
 
 export default function LoadingScreen(): ReactElement {
   return (
-    <Flex justify='center' align='center'>
+    <Flex
+      justify='center'
+      align='center'
+      style={{ width: '100vw', height: '100vh', backdropFilter: 'blur(2px)', position: 'absolute' }}
+    >
       <Spin
         indicator={
           <LoadingOutlined
             style={{
-              fontSize: 48,
+              fontSize: 96,
             }}
             spin
           />

@@ -1,0 +1,55 @@
+.footer {
+    width: 100vw;
+    background-color: rgba(43, 43, 43, 1);
+    display: flex;
+    justify-content: center;
+}
+.footer__container {
+    width: 1200px;
+    height: 228px;
+    margin-top: 48px;
+    margin-bottom: 60px;
+    justify-content: space-between;
+    .logotype__name {
+        color: rgba(255, 255, 255, 1);
+    }
+}
+.footer__info {
+    width: 836px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__list {
+    height: fit-content;
+    align-self: end;
+}
+.footer__list__item {
+    margin-bottom: 12px;
+}
+.footer__list__item:first-child {
+    margin-bottom: 24px;
+}
+.footer__list__item:last-child {
+    margin-bottom: 0;
+}
+.footer__item__link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+.footer__list__item:first-child a{
+    color: rgba(255, 255, 255, 1) !important;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.footer__logo-social {
+    justify-content: space-between;
+}
+.socials {
+    max-width: 84px;
+    color: rgba(255, 255, 255, 1);
+    gap: 8px;
+}

@@ -1,12 +1,46 @@
 .auth {
-    display: flex;
-    flex-flow: column;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
     align-items: center;
-    width: 390px;
-    height: fit-content;
-    gap: 20px;
-    background-color: rgba(217, 217, 217, 0.5);
     border-radius: 6px;
     margin: auto;
+    padding: 20px 40px 40px 40px;
+    border: 1px solid rgba(102, 102, 102, 1);
+    border-radius: 24px;
+    justify-items: center;
+    p {
+        color: rgba(43, 43, 43, 1);
+    }
+    .logotype {
+       margin-bottom: 52px;
+    }
+}
+.lines__or {
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    gap: 16px;
+    .line{
+        border-color: rgba(217, 217, 217, 1);
+        width: 171px;
+        margin: 0;
+        margin-top: 1px;
+    }
+}
+.activity__container {
+    gap: 24px;
+}
+.verification {
+    padding: 35px 55px 35px 55px;
+}
+.verification__code__container{
+    width: min-content;
+    height: min-content;
+}
+.timer {
+    text-align: center;
+    margin-bottom: 0;
+}
+.input-otp {
+    gap: 11px !important;
 }

@@ -1,14 +1,14 @@
 @use './style.scss' as *;
 .card {
-    max-width: 260px;
+    max-width: 270px;
 }
 .card__image__container {
     display: flex;
-    width: 260px;
-    height: 160px;
+    width: 270px;
+    height: 370px;
     justify-content: center;
     border-radius: 6px;
-    background-color: rgba(217, 217, 217, 0.5);
+    background-color: rgba(56, 55, 55, 0.7);
 }
 .card__text {
     width: 100%;
@@ -21,16 +21,50 @@
 .product__price {
     font-weight: 600;
 }
-.carousel {
-    background-color: #f0f0f0;
-    border-radius: 6px;
-}
 .carousel-item {
     display: flex !important;
     justify-items: center;
     justify-content: center;
     align-content: center;
+    align-items: center;
+    background-color: rgba(56, 55, 55, 0.7);
+    width: 270px;
+    height: 270px;
 }
 .slick-arrow {
     color:#8c8c8c !important
+}
+.slick-active button {
+    background-color: rgba(70, 90, 213, 1) !important;
+}
+.ant-card-body{
+    padding: 0 !important;
+}
+.carousel {
+    background-color: rgba(56, 55, 55, 0.7);
+    position: relative;
+    margin-bottom: 13px;
+}
+.heart {
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+.icon__heart-filled
+.ant-rate-star {
+    margin-inline-end: 2px !important;
+}
+.rate__container {
+    gap: 4px;
+}
+.additional-info {
+    gap: 8px;
+}
+.feedback {
+    gap: 4px;
 }

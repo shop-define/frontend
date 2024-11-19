@@ -1,0 +1,16 @@
+.logotype {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.logotype__name {
+    color: rgba(43, 43, 43, 1);
+    align-self: center;
+    font-weight: 600;
+    text-decoration-skip-ink: none;
+}
+.logotype a {
+    width: 100%;
+}

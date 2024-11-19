@@ -1,0 +1,19 @@
+.logotype {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  width: fit-content;
+  height: fit-content;
+}
+
+.logotype__name {
+  align-self: center;
+  font-weight: 600;
+  color: rgb(43, 43, 43);
+  text-decoration-skip-ink: none;
+}
+
+.logotype a {
+  width: 100%;
+}
